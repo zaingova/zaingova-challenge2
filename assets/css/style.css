@@ -1,0 +1,60 @@
+:root {
+    --navBar: #7c7948;
+    --navBarHover: #bebb73;
+    --defaultText: #fff;
+}
+
+.top-nav {
+    padding: 0px;
+    background-color: var(--navBar);
+    position: fixed;
+    width: 100%;
+    display: inline;
+
+}
+
+.top-nav h1 {
+    margin: 0 0 10px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 80px;
+    padding: 0;
+}
+
+.top-nav div {
+    padding: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Playfair Display', serif;
+}
+
+.top-nav div ul {
+    margin: 30px 20px 0 20px;
+    list-style-type: none;
+}
+
+.top-nav div ul li {
+    margin-left: 90px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+a {
+    color: var(--defaultText);
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.top-nav a:hover {
+    color: var(--navBarHover);
+    transition: all 0.7s ease-in-out;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(141, 141, 141);
+}
+
+.img {
+    width: 100%;
+}
